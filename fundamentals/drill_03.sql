@@ -1,0 +1,1 @@
+-- Theme: student takes many courses. Course has many students. Two yeses → M:N. Today you'll prove why no amount of cleverness avoids the third table.
