@@ -1,18 +1,4 @@
-create table authors (
-    id serial primary key  ,
-    name varchar(100),
-    country varchar(100)
-);
 
-create table books (
-    id serial primary key  ,
-    title varchar(100),
-    published_year int,
-    author_id integer,
-    constraint fk_author
-        foreign key (author_id)
-        references authors(id)
-);
 
 insert into authors (name, country)
 values
